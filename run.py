@@ -33,6 +33,7 @@ def validate_data(values):
     Raises ValueError of strings cannot be converte into int,
     if there aren't exactely 6 values
     """
+    print(values)
     try:
         if len(values) != 6:
             raise ValueError(
